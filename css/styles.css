@@ -1,0 +1,142 @@
+@font-face {
+    font-family: HelveticaNeue-thin;
+    src: url('../fonts/helveticaNeue-thin.ttf');
+}
+
+@font-face {
+    font-family: HelveticaNeue-medium;
+    src: url('../fonts/helveticaNeue-medium.ttf');
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.title {
+    max-width: 550px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
+    float: left;
+    margin-top: 4px;
+}
+
+.header h1 {
+    font-family: HelveticaNeue-thin;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.header hr {
+    margin-bottom: 30px;
+    width: 100%;
+    border: 0.9px solid lightgray
+}
+
+.valuebtn {
+    padding: 15px 32px;
+    margin-top: 4px;
+    background-color: darkgray;
+    color: white;
+    font-size: 28px;
+    font-family: HelveticaNeue-thin;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+
+.calculator {
+    display: block;
+    width: 440px;
+    float: left;
+}
+
+.history {
+    display: block;
+    width: 180px;
+    height: 438px;
+    background-color: rgb(228, 228, 228);
+    float: left;
+    padding: 3px;
+    font-family: HelveticaNeue-medium;
+}
+
+
+#calchistory th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#calchistory td:hover {
+    background-color: white;
+    color: black;
+}
+
+#calchistory td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: right;
+    color: rgb(120, 120, 120);
+    background-color: rgb(220, 220, 220);
+    font-family: HelveticaNeue-thin;
+    font-size: 20px;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+#calchistory td:first-line {
+    font-size: 16px;
+}
+
+.calculator-container {
+    width: 626px;
+    display: block;
+    margin: auto;
+}
+
+.main-container {
+    background-color: white;
+    height: 525px;
+    width: 660px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 15px lightgrey;
+}
+
+#display {
+    width: 408.2px;
+    height: 50px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(120, 120, 120);
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 42px;
+    font-family: HelveticaNeue-thin;
+    font-weight: light;
+    pointer-events: none;
+    border: none;
+}
+
+#subdisplay {
+    width: 408.2px;
+    height: 10px;
+    background-color: white;
+    color: rgb(120, 120, 120);
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 24px;
+    font-family: HelveticaNeue-medium;
+    font-weight: light;
+}
